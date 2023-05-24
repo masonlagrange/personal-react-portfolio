@@ -1,16 +1,6 @@
 import React from "react";
-import Header from "./components/Header";
-import Section from "./components/Section";
-import Navbar from "./components/Navbar";
+import Navigation from "./components/Navigation";
 
-function App() {
-  return (
-    <div>
-      <Navbar />
-      <Header />
-      <Section />
-    </div>
-  );
-}
+const App = () => <Navigation />;
 
 export default App;
