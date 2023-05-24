@@ -1,12 +1,26 @@
 .header {
-  background: #b71775;
-  height: 200px;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    background-color: rgb(47, 186, 204);
+    margin: 1% 0 1% 0;
+    padding: 0.5% 0 0 0;
 }
 
 .header h1 {
-  margin: 0;
-  padding-top: 75px;
-  text-align: center;
-  color: white;
-  font-size: 3rem;
+    margin-left: 5%;
+    color: aliceblue;
+}
+
+.header ul{
+    align-self: flex-end;
+    flex-grow: 1;
+    margin-right: 5%;
+    border-bottom: 0;
+    --bs-nav-tabs-link-active-bg: aliceblue;
+    --bs-nav-tabs-border-radius: 0.375rem;
+    --bs-nav-link-color: aliceblue;
+    --bs-nav-link-hover-color: rgb(255, 255, 255);
+    --bs-nav-tabs-link-hover-border-color: white;
+    --bs-nav-tabs-link-active-border-color: aliceblue;
 }

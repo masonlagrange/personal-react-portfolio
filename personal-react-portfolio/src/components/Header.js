@@ -1,16 +1,42 @@
 import React from 'react';
-// Here we import the Header.css file to grant access to some additional classNames
-import '../styles/Header.css';
+import '../styles/Header.css'
 
-// TODO: Create a styles object called "styles"
-
-function Header() {
-  // TODO: Add a style attribute to header and the h1 element
-
+function Header({ currentPage, handlePageChange }) {
   return (
-    <header className="header">
-      <h1>Welcome</h1>
-    </header>
+    <div className='header'>
+      <h1>Mason Lagrange</h1>
+    <ul className="nav nav-tabs justify-content-end">
+ 
+      <li className="nav-item">
+        <a
+          href="#about"
+          onClick={() => handlePageChange('About')}
+          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+        >About</a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#portfolio"
+          onClick={() => handlePageChange('Portfolio')}
+          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+        >Portfolio</a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#resume"
+          onClick={() => handlePageChange('Resume')}
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >Resume</a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#contact"
+          onClick={() => handlePageChange('Contact')}
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+        >Contact</a>
+      </li>
+    </ul>
+    </div>
   );
 }
 
