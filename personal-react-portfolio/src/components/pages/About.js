@@ -1,16 +1,17 @@
 import React from 'react';
+import avatar from '../../images/avatar.png'
 
 export default function About() {
   return (
     <div>
-      <h1>About Me</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      <h2 style={{margin: "2%"}}>About Me</h2>
+      <img src={avatar} alt='profile avatar' className='avatar' style={{marginLeft: "2%"}}/>
+      <p style={{margin:"2%"}}>
+        My name is Mason Lagrange and I am working to become a web developer! My previous education
+        is an honours bachelor's degree of science, but I decided to shift my focus
+        to what really interests me. This of course is computer science and web development.
+        I hope to have a career in this field and I am excited to learn more about the field.
+        Expanding my repertoire is a lot of fun, and I look forward to continuing my learning!
       </p>
     </div>
   );
