@@ -10,4 +10,4 @@ Navigate to the portfolio link and use the navbar tabs to explore the portfolio 
 ![image](https://github.com/masonlagrange/personal-react-portfolio/assets/119389197/227b609f-a7d5-4090-ad11-00c7ae035fc6)
 
 ## Link
-![Link](https://masonlagrange.github.io/personal-react-portfolio/)
+[Link](https://masonlagrange.github.io/personal-react-portfolio/)
