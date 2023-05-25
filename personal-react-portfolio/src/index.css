@@ -5,3 +5,34 @@ html {
 body > * {
     background-color: aliceblue;
 }
+
+.contact-wrap {
+    width: 50vw;
+    height: 100vh;
+    margin-left: 2%;
+}
+
+.contact-wrap > h5 {
+    margin: 18px 4px 6px 0;
+}
+
+.name-input {
+    width: 100%;
+}
+
+.email-input {
+    width: 100%;
+}
+
+.message-input {
+    width: 100%;
+    height: 25%
+}
+
+.submit-button {
+    margin-top: 2%;
+}
+
+.resume-list li{
+    padding: 4px;
+}
