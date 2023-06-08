@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/personal-react-portfolio/static/css/main.d6e14a7a.css",
-    "main.js": "/personal-react-portfolio/static/js/main.4a2547df.js",
+    "main.css": "/personal-react-portfolio/static/css/main.9911fe4d.css",
+    "main.js": "/personal-react-portfolio/static/js/main.c78c164e.js",
     "static/media/primary-personal-portfolio.png": "/personal-react-portfolio/static/media/primary-personal-portfolio.41af4c6193b79e994b3e.png",
     "static/media/e-commerce-database-backend.png": "/personal-react-portfolio/static/media/e-commerce-database-backend.bcdb4bce7786e0a0ee6a.png",
     "static/media/shiftwiz.png": "/personal-react-portfolio/static/media/shiftwiz.64e922e778567520d4f0.png",
     "static/media/resume-placeholder.png": "/personal-react-portfolio/static/media/resume-placeholder.aaca4ba4553ef9ef5d40.png",
+    "static/media/recall-rumble-game.jpg": "/personal-react-portfolio/static/media/recall-rumble-game.309bb6001ecf4674e763.jpg",
     "static/media/stackoverflow-logo.png": "/personal-react-portfolio/static/media/stackoverflow-logo.4c597f2329f470911516.png",
     "static/media/cms-style-tech-blog.png": "/personal-react-portfolio/static/media/cms-style-tech-blog.62f6ff9dc0f093bc2b48.png",
-    "static/media/command-line-staff-manager.png": "/personal-react-portfolio/static/media/command-line-staff-manager.d8436c6f9a9c42724353.png",
     "static/media/small-business-note-database.png": "/personal-react-portfolio/static/media/small-business-note-database.a4616ee79b0177718728.png",
     "index.html": "/personal-react-portfolio/index.html",
-    "main.d6e14a7a.css.map": "/personal-react-portfolio/static/css/main.d6e14a7a.css.map",
-    "main.4a2547df.js.map": "/personal-react-portfolio/static/js/main.4a2547df.js.map"
+    "main.9911fe4d.css.map": "/personal-react-portfolio/static/css/main.9911fe4d.css.map",
+    "main.c78c164e.js.map": "/personal-react-portfolio/static/js/main.c78c164e.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6e14a7a.css",
-    "static/js/main.4a2547df.js"
+    "static/css/main.9911fe4d.css",
+    "static/js/main.c78c164e.js"
   ]
 }
